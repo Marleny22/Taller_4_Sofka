@@ -1,0 +1,7 @@
+En Java se pueden implementar varios métodos principales con el uso de sobrecarga 
+sin embargo solo un método principal hará el llamado a los demas restantes y sera el 
+punto de partida para la ejecución de los demás métodos principales. Sólo el método main
+con una matriz de String única como parámetro se considera como punto de partida del programa.
+JVM buscará este método main con una matriz de String como argumento, para que desde allí 
+se ejecuten los demás métodos principales si es preciso. Por lo tanto siempre buscará el 
+método que tenga la siguiente estructura public static void main (String [] args).
